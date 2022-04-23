@@ -1,0 +1,51 @@
+:root {
+    --bluetext-color: #2C5B90;
+    --primary-color: #112752;
+    --primary-color-600: #2D527D;
+    --primary-light-color: #E3EEFF;
+    --button-bgcolor: #3DAEFF;
+}
+
+@font-face {
+    font-family: HanyiSentyPailouArch;
+    src: url('../assets/HanyiSentyPailouArch.ttf')format("truetype");
+}
+
+html,
+body {
+    font-family: HanyiSentyPailouArch;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    transition: 1s;
+}
+
+
+/* 
+X-Small devices (portrait phones, less than 576px) 
+No media query for `xs` since this is the default in Bootstrap  
+*/
+
+
+/* Small devices (landscape phones, 576px and up)  */
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}
