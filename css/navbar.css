@@ -37,7 +37,7 @@ button {
 }
 
 .nav-button-arrow {
-    background-image: url(../assets/nav-button-arrow-unact.svg);
+    background-image: url(../assets/nav-bar/nav-button-arrow-unact.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 23px 23px;
@@ -60,7 +60,7 @@ button {
 }
 
 .nav-buttons:hover .nav-button-arrow {
-    background-image: url(../assets/nav-button-arrow-act.svg);
+    background-image: url(../assets/nav-bar/nav-button-arrow-act.svg);
 }
 
 .nav-buttons:hover p {
@@ -68,7 +68,7 @@ button {
 }
 
 .navbar-logo-svg {
-    background-image: url(../assets/logo_sm.svg);
+    background-image: url(../assets/nav-bar/logo_sm.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;

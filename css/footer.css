@@ -1,0 +1,249 @@
+:root {
+    --footer-bg-color: #112752;
+}
+
+.ufooter {
+    background-color: var(--footer-bg-color);
+    padding: 25 27;
+}
+
+.footer-logo {
+    background-image: url(../assets/footer/footer-logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55px;
+    width: calc(55px / 158 * 123);
+    object-fit: cover;
+    padding: 0;
+}
+
+.contact-title h4 {
+    color: white;
+    font-size: min(12vw, 50px);
+    /* font-size: 50px; */
+    margin: 0;
+    margin-left: 20px;
+}
+
+.contact-title {
+    margin-bottom: 40px;
+}
+
+.contact-button-div {
+    background: rgba(255, 255, 255, 0.18);
+    box-shadow: 0px 3px 10.5px rgba(0, 0, 0, 0.25), inset 0px 0px 26px rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(12px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50vh;
+    padding: 15 28;
+    width: 100%;
+}
+
+.contact-button-icon {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 23px;
+    width: 23px;
+    object-fit: cover;
+    padding: 0;
+    margin-right: 20px;
+}
+
+.icon-email {
+    background-image: url(../assets/footer/footer-icon-email.svg);
+}
+
+.icon-fb {
+    background-image: url(../assets/footer/footer-icon-fb.svg);
+}
+
+.icon-location {
+    background-image: url(../assets/footer/footer-icon-location.png);
+}
+
+.icon-phone {
+    background-image: url(../assets/footer/footer-icon-phone.svg);
+}
+
+.contact-button-text {
+    font-size: 20px;
+    color: white;
+    /* font-family: 'Gudea'; */
+    margin: 0;
+    font-family: 'Noto Sans TC';
+    font-weight: 400;
+    width: fit-content;
+}
+
+.contact-button-text i {
+    font-family: 'Gudea';
+    /* font-family: 'Noto Sans TC'; */
+}
+
+.back2top-div {
+    width: 100%;
+    margin-top: 10;
+    margin-bottom: 10;
+}
+
+.back2top-div a {
+    transform: scale(1);
+    transition: 0.6s;
+    transition-timing-function: ease-out;
+}
+
+.back2top-div a:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    /* transition-timing-function: ease-out; */
+}
+
+.back2top {
+    background-image: url(../assets/footer/back2top.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    padding: 0;
+}
+
+.contact-a {
+    /* width: 100%; */
+    text-decoration: none;
+    margin-bottom: 35;
+    transition: 0.8s;
+    transform: scale(1);
+}
+
+.contact-a:hover {
+    transition: 0.5s;
+    transform: scale(1.04);
+}
+
+.footer-next-line {
+    display: block;
+}
+
+.footer-nav-button-div {
+    max-width: 980px;
+    z-index: 9;
+}
+
+.gball3 {
+    background-image: url(../assets/landing/gball1.svg);
+    left: -280px;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 350px;
+    z-index: 0;
+    filter: drop-shadow(0px 4px 101px rgba(255, 255, 255, 0.2)) drop-shadow(0px 6px 25px rgba(0, 0, 0, 0.25));
+    /* aspect-ratio: 1 / 1; */
+}
+
+.gball4 {
+    background-image: url(../assets/footer/gball3.svg);
+    right: -70px;
+    bottom: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 160px;
+    width: 160px;
+    z-index: 0;
+    filter: drop-shadow(0px 4px 101px rgba(255, 255, 255, 0.2)) drop-shadow(0px 6px 25px rgba(0, 0, 0, 0.25));
+    /* aspect-ratio: 1 / 1; */
+}
+
+.copyright-text {
+    font-family: 'Gudea';
+    color: #949494;
+    margin-top: 55px;
+    font-size: 12;
+    /* padding-bottom: 5px; */
+}
+
+
+/* 
+X-Small devices (portrait phones, less than 576px) 
+No media query for `xs` since this is the default in Bootstrap  
+*/
+
+
+/* Small devices (landscape phones, 576px and up)  */
+
+@media (min-width: 576px) {
+    .ufooter {
+        padding: 25 40;
+    }
+    .contact-a {
+        width: 350px;
+    }
+    .contact-location {
+        max-width: none;
+        /* width: 100%; */
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .footer-next-line {
+        display: none;
+    }
+    /* .contact-a {
+        width: 350px;
+    } */
+    .contact-location {
+        max-width: none;
+        width: fit-content;
+    }
+    .ufooter {
+        padding: 25 40;
+        padding-bottom: 8;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .gball3 {
+        height: 430;
+        width: 430;
+        left: -320;
+        top: 50%;
+        transform: translateY(-50%);
+        /* z-index: -1; */
+    }
+    .gball4 {
+        right: 30;
+    }
+}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .gball3 {
+        height: 530;
+        width: 530;
+        left: -430;
+        top: 50%;
+        transform: translateY(-50%);
+        /* z-index: -1; */
+    }
+    .gball4 {
+        right: 60;
+    }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {}

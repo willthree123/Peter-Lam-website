@@ -8,12 +8,12 @@
 
 @font-face {
     font-family: HanyiSentyPailouArch;
-    src: url('../assets/HanyiSentyPailouArch.ttf');
+    src: url('../font/HanyiSentyPailouArch.ttf');
 }
 
 @font-face {
     font-family: HanyiSentyPagoda;
-    src: url('../assets/HanyiSentyPagoda.ttf');
+    src: url('../font/HanyiSentyPagoda.ttf');
 }
 
 html,
