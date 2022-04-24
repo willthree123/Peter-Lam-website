@@ -11,6 +11,8 @@
     padding: 0;
     margin: 0 auto;
     width: 330px;
+    /* experimenet */
+    height: fit-content;
 }
 
 .img-overlay {
@@ -77,14 +79,6 @@ a .btn-view-details:hover {
     font-size: 16px;
 }
 
-
-/* Image position*/
-
-.act-img-1 {
-    background-image: url("../assets/news-photo/jan-2022/1-jpg.jpg");
-    background-position: -20px 0px;
-}
-
 .news-section {
     background-color: #F0F8FF;
     padding-bottom: 30px;
@@ -131,6 +125,7 @@ a .btn-view-details:hover {
 .news-view-more a div {
     width: fit-content;
     margin-top: 10px;
+    margin-right: 20px;
 }
 
 .news-view-more a,
@@ -204,9 +199,21 @@ No media query for `xs` since this is the default in Bootstrap
 
 /* X-Large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .news-section .next-line {
+        display: block;
+    }
+}
 
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+    .news-section .next-line {
+        display: block;
+    }
+    .news-section {
+        padding-left: max(50px, 12vw);
+        padding-right: max(50px, 12vw);
+    }
+}

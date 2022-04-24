@@ -227,7 +227,7 @@ No media query for `xs` since this is the default in Bootstrap
         margin-right: 10px;
     }
     .navbar-logo-svg {
-        background-image: url(../assets/logo_lg.svg);
+        background-image: url(../assets/nav-bar/logo_lg.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: 100% 100%;

@@ -1,0 +1,33 @@
+/* Image position*/
+
+.act-img-1 {
+    background-image: url("../assets/news-photo/april-2022/1.jpg");
+    background-position: -40px 0px;
+}
+
+.act-img-2 {
+    background-image: url("../assets/news-photo/april-2022/2.jpg");
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.act-img-3 {
+    background-image: url("../assets/news-photo/april-2022/3.jpg");
+    background-position: -20px 0px;
+}
+
+.act-img-4 {
+    background-image: url("../assets/news-photo/april-2022/4.jpg");
+    background-position: 0px 0px;
+    back
+}
+
+.act-img-5 {
+    background-image: url("../assets/news-photo/april-2022/5.jpg");
+    background-position: -20px 0px;
+}
+
+.act-img-6 {
+    background-image: url("../assets/news-photo/april-2022/6.jpg");
+    background-position: center;
+}

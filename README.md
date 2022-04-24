@@ -1,5 +1,9 @@
 # Peter Lam website
 
+### 0.3.1 [24/4/2022 22:40]
+
+- Fixed some bugs
+
 ### 0.3.0 [24/4/2022 21:25]
 
 - Finished footer

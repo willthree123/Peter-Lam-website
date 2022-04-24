@@ -224,6 +224,12 @@ No media query for `xs` since this is the default in Bootstrap
     .gball4 {
         right: 30;
     }
+    .ufooter {
+        padding: 25 60;
+        padding-bottom: 8;
+        padding-left: max(60px, 14vw);
+        /* padding-right: max(60px, 12vw); */
+    }
 }
 
 
