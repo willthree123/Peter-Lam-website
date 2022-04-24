@@ -8,14 +8,19 @@
 
 @font-face {
     font-family: HanyiSentyPailouArch;
-    src: url('../assets/HanyiSentyPailouArch.ttf')format("truetype");
+    src: url('../assets/HanyiSentyPailouArch.ttf');
+}
+
+@font-face {
+    font-family: HanyiSentyPagoda;
+    src: url('../assets/HanyiSentyPagoda.ttf');
 }
 
 html,
 body {
     font-family: HanyiSentyPailouArch;
     overflow-x: hidden;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
     transition: 1s;
 }
 
