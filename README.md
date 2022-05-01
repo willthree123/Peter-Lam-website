@@ -1,5 +1,9 @@
 # Peter Lam website
 
+### 0.3.2 [1/5/2022 17:07]
+
+- Try preload font
+
 ### 0.3.1 [24/4/2022 22:40]
 
 - Fixed some bugs
