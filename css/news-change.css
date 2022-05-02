@@ -28,6 +28,6 @@
 }
 
 .act-img-6 {
-    background-image: url("../assets/news-photo/april-2022/6.jpg");
     background-position: center;
+    src: url("../assets/news-photo/april-2022/6.jpg");
 }
