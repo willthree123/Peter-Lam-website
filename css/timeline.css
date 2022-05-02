@@ -354,12 +354,20 @@
 
 .timeline-bg-div {
     background-color: #2D527D;
-    background-image: url("/assets/timeline/hksar.png");
     background-repeat: no-repeat;
     /* background-size: cov; */
     background-size: auto 80%;
     background-position-x: -480px;
     background-position-y: 50%;
+}
+
+.bg-hksar {
+    background-image: url("/assets/timeline/hksar.png");
+}
+
+.spacer-top-timeline {
+    height: 67px;
+    background-color: #2D527D;
 }
 
 @media screen and (max-height: 450px) {
@@ -402,7 +410,7 @@ No media query for `xs` since this is the default in Bootstrap
         /* --timeline-scroll-100vw; */
     }
     .timeline-div {
-        height: calc(var(--vh, 1vh) * 100);
+        height: calc(var(--vh, 1vh) * 95);
         display: flex;
         /* margin: ; */
         flex-direction: column;
@@ -505,6 +513,9 @@ No media query for `xs` since this is the default in Bootstrap
         /* background-position-x: calc(var(--vw, 1vw)* 70 * -1); */
         background-position-x: calc(30% - 480px);
         background-position-y: 50%;
+    }
+    .spacer-top-timeline {
+        height: 85px;
     }
 }
 

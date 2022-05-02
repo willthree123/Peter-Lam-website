@@ -6,6 +6,11 @@
     --button-bgcolor: #3DAEFF;
 }
 
+.spacer-top {
+    height: 67px;
+    background-color: #112752;
+}
+
 
 /* @font-face {
     font-family: HanyiSentyPailouArch;
@@ -39,7 +44,11 @@ No media query for `xs` since this is the default in Bootstrap
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .spacer-top {
+        height: 85px;
+    }
+}
 
 
 /* Large devices (desktops, 992px and up) */

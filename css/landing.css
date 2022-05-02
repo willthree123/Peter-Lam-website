@@ -6,11 +6,6 @@
     padding-bottom: 30px;
 }
 
-.spacer-top {
-    height: 67px;
-    background-color: #112752;
-}
-
 .ucard {
     margin: 0px 10px;
     background-color: #ffffffaa;
@@ -180,9 +175,6 @@ No media query for `xs` since this is the default in Bootstrap
     }
     .lbanner {
         height: calc(100vh - 85px);
-    }
-    .spacer-top {
-        height: 85px;
     }
     .taipo7 {
         left: 50%;

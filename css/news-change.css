@@ -19,7 +19,6 @@
 .act-img-4 {
     background-image: url("../assets/news-photo/april-2022/4.jpg");
     background-position: 0px 0px;
-    back
 }
 
 .act-img-5 {
@@ -29,5 +28,5 @@
 
 .act-img-6 {
     background-position: center;
-    src: url("../assets/news-photo/april-2022/6.jpg");
+    background-image: url("../assets/news-photo/april-2022/6.jpg");
 }
