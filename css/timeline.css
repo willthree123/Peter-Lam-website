@@ -362,7 +362,7 @@
 }
 
 .bg-hksar {
-    background-image: url("/assets/timeline/hksar.png");
+    background-image: url("../assets/timeline/hksar.png");
 }
 
 .spacer-top-timeline {
