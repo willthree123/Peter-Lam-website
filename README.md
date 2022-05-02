@@ -2,6 +2,11 @@
 
 ### 0.3.4 [2/5/2022 02:28]
 
+- Finished the whole timeline (ver/ hor)
+- Try to merge
+
+### 0.3.4 [2/5/2022 02:28]
+
 - Timeline responsive (hor)
 
 ### 0.3.3 [2/5/2022 01:13]

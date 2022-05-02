@@ -198,6 +198,7 @@
     transform: scale(1.08) translateY(calc(-50% + var(--timeline-dash-height) / 2));
     transform-origin: -50% 0%;
     transition: 0.5s;
+    filter: drop-shadow(0px 0px 5px rgba(240, 231, 150, 0.8));
 }
 
 .tag-div a {
@@ -309,36 +310,42 @@
     /* width: min(max(20%, 20px), calc((var(--vw, 1vw) * 10))); */
 }
 
+.timeline-timeline::-webkit-scrollbar,
 .timeline-scroll::-webkit-scrollbar {
     background: transparent;
 }
 
+.timeline-timeline::-webkit-scrollbar *,
 .timeline-scroll::-webkit-scrollbar * {
     /* border-radius: 999999px; */
     background-color: transparent;
 }
 
+.timeline-timeline::-webkit-scrollbar-track,
 .timeline-scroll::-webkit-scrollbar-track {
     background-color: #00000000;
     /* border-radius: 999999px; */
 }
 
+.timeline-timeline::-webkit-scrollbar-track:hover,
 .timeline-scroll::-webkit-scrollbar-track:hover {
     background-color: #00000000;
     /* border-radius: 999999px; */
 }
 
+.timeline-timeline::-webkit-scrollbar-thumb,
 .timeline-scroll::-webkit-scrollbar-thumb {
-    background-color: var(--scrollbar-thumb);
     border-radius: 50vh;
+    background-color: var(--scrollbar-thumb-hover);
     /* padding: 0px 10px; */
     border: 3px solid #ffffff;
     background-color: #fff;
     border-radius: 9999999px;
 }
 
+.timeline-timeline::-webkit-scrollbar-thumb:hover,
 .timeline-scroll::-webkit-scrollbar-thumb:hover {
-    background-color: var(--scrollbar-thumb-hover);
+    background-color: var(--scrollbar-thumb);
     border: 2px solid #ccc;
     background-color: #ccc;
     border-radius: 9999999px;
@@ -387,12 +394,18 @@ No media query for `xs` since this is the default in Bootstrap
 @media (min-width: 768px) {
      :root {
         --timeline-dash-width: 8px;
-        --timeline-dash-height: 20px;
+        --timeline-dash-height: 25px;
         --timeline-dot-border-width: 8px;
         --timeline-dot-size: 25px;
         --timeline-hands-color: #8197B1;
-        --timeline-hands-margin-bottom: 150px;
+        --timeline-hands-margin-bottom: 170px;
         /* --timeline-scroll-100vw; */
+    }
+    .timeline-div {
+        height: calc(var(--vh, 1vh) * 100);
+        display: flex;
+        /* margin: ; */
+        flex-direction: column;
     }
     .timeline-img {
         height: calc((var(--vh, 1vw) * 48));
@@ -413,14 +426,23 @@ No media query for `xs` since this is the default in Bootstrap
         font-size: 25px;
         transition: 0.5s;
     }
+    .timeline-view-more {
+        justify-content: flex-end;
+        align-self: flex-end;
+        margin-bottom: 60px;
+    }
     .timeline-timeline {
-        height: 133px;
-        /* height: 200px; */
-        margin-bottom: 20px;
-        overflow: inherit;
-        align-items: flex-end;
-        margin-top: 300px;
         display: flex;
+        align-items: flex-end;
+        flex-grow: 1;
+        height: 133px;
+        width: 75%;
+        overflow: auto;
+        overflow-y: hidden;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        margin-left: auto;
+        margin-bottom: 40px;
     }
     .thands:last-child {
         margin-right: 0px;
@@ -430,9 +452,10 @@ No media query for `xs` since this is the default in Bootstrap
         width: fit-content;
         height: var(--timeline-dash-width);
         /* margin-top: var(--timeline-dash-width); */
-        margin: 0px 30px;
+        margin: 0px 70px;
         display: flex;
         flex-direction: row;
+        margin-left: auto;
     }
     .tdash {
         background-color: var(--timeline-hands-color);
@@ -476,6 +499,13 @@ No media query for `xs` since this is the default in Bootstrap
         transform: scale(1.08) translate(-50%, 0);
         transition: 0.5s;
     }
+    .timeline-bg-div {
+        /* background-size: cov; */
+        background-size: auto 80%;
+        /* background-position-x: calc(var(--vw, 1vw)* 70 * -1); */
+        background-position-x: calc(30% - 480px);
+        background-position-y: 50%;
+    }
 }
 
 
@@ -502,12 +532,15 @@ No media query for `xs` since this is the default in Bootstrap
     }
     .timeline-div {
         width: 1200px;
-        /* margin: 0 auto; */
-        /* padding: 0 auto; */
+        padding: 0px;
     }
 }
 
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+    .timeline-div {
+        width: 1400px;
+    }
+}
