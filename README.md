@@ -1,5 +1,9 @@
 # Peter Lam website
 
+### 0.4.1 [14/5/2022 02:37]
+
+- Google search console
+
 ### 0.4.0 [14/5/2022 02:00]
 
 - Finished about page
