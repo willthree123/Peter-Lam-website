@@ -11,20 +11,8 @@
     background-color: #112752;
 }
 
-
-/* @font-face {
-    font-family: HanyiSentyPailouArch;
-    src: url('../font/HanyiSentyPailouArch.ttf');
-}
-
-@font-face {
-    font-family: HanyiSentyPagoda;
-    src: url('../font/HanyiSentyPagoda.ttf');
-} */
-
 html,
 body {
-    font-family: HanyiSentyPailouArch;
     overflow-x: hidden;
     scroll-behavior: smooth !important;
     transition: 1s;

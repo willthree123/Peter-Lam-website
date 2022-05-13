@@ -14,6 +14,7 @@
     background-color: var(--navbar-bgcolor);
     color: var(--navbar-color);
     padding: 0px;
+    height: 67px;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
 
@@ -34,6 +35,53 @@ button {
     transform: scale(1.0);
     transition: 0.5s;
     height: 100%;
+}
+
+.nav-link {
+    padding: 14 0;
+}
+
+.nav-button-text {
+    /* margin-bottom: 30px; */
+    height: 24px;
+    margin-left: 6px;
+    width: fit-content;
+    color: black;
+    font-size: 20px;
+}
+
+.text-img-1 {
+    content: url(../assets/nav-bar/text1-unactivate.svg);
+    transition: 0.5s;
+}
+
+.text-img-2 {
+    content: url(../assets/nav-bar/text2-unactivate.svg);
+    transition: 0.5s;
+}
+
+.text-img-3 {
+    height: 26px;
+    margin: 8 0;
+    padding: 0 0;
+    content: url(../assets/nav-bar/text3-unactivate.svg);
+    transition: 0.5s;
+    width: min-content;
+}
+
+.nav-buttons:hover .text-img-1 {
+    content: url(../assets/nav-bar/text1-activate.svg);
+    transition: 0.5s;
+}
+
+.nav-buttons:hover .text-img-2 {
+    content: url(../assets/nav-bar/text2-activate.svg);
+    transition: 0.5s;
+}
+
+.nav-buttons:hover .text-img-3 {
+    content: url(../assets/nav-bar/text3-activate.svg);
+    transition: 0.5s;
 }
 
 .nav-button-arrow {
@@ -61,10 +109,6 @@ button {
 
 .nav-buttons:hover .nav-button-arrow {
     background-image: url(../assets/nav-bar/nav-button-arrow-act.svg);
-}
-
-.nav-buttons:hover p {
-    color: var(--navbar-button-hover);
 }
 
 .navbar-logo-svg {
@@ -236,6 +280,9 @@ No media query for `xs` since this is the default in Bootstrap
         /* margin-top: 6px; */
         margin-bottom: 2px;
         margin-right: 2px;
+    }
+    .navbar {
+        height: 85px;
     }
 }
 

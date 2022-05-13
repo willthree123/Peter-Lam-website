@@ -2,6 +2,43 @@
     --timeline-tag-margin-bottom-px: 30px;
 }
 
+.service-title-svg {
+    height: 48px;
+    margin-left: 6px;
+    width: fit-content;
+    color: black;
+    font-size: 20px;
+    content: url(../assets/svg-title/service-title.svg);
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 35px;
+}
+
+.hksar-title-svg,
+.en-title-svg,
+.cn-title-svg {
+    height: 30px;
+    margin-left: 6px;
+    width: fit-content;
+    color: black;
+    font-size: 20px;
+    margin: 0 30px;
+    margin-top: 2px;
+    font-size: 2em;
+}
+
+.hksar-title-svg {
+    content: url(../assets/svg-title/hksar.svg);
+}
+
+.en-title-svg {
+    content: url(../assets/svg-title/uk.svg);
+}
+
+.cn-title-svg {
+    content: url(../assets/svg-title/cn.svg);
+}
+
 .overlay {
     height: 100%;
     width: 0;
@@ -60,16 +97,6 @@
     height: fit-content;
     overflow: auto;
     overflow-x: hidden;
-}
-
-.timeline-div h1 {
-    font-family: HanyiSentyPailouArch;
-    font-weight: 500;
-    line-height: 1.2;
-    color: white;
-    font-size: min(calc((var(--vw, 1vw) * 12)), 50px);
-    margin-left: 20px;
-    margin-bottom: 35px;
 }
 
 .timeline-nav-div {
@@ -293,6 +320,12 @@
     font-size: 16px;
 }
 
+.spacer-timeline-bottom {
+    width: 100%;
+    background-color: #2D527D;
+    height: calc((var(--vh, 1vw) * 5));
+}
+
 .timeline-scroll {
     width: min(max(80%, 400px), calc((var(--vw, 1vw) * 90)));
     /* width: calc((var(--vw, 1vw) * 100)); */
@@ -412,7 +445,7 @@ No media query for `xs` since this is the default in Bootstrap
         /* --timeline-scroll-100vw; */
     }
     .timeline-div {
-        height: calc(var(--vh, 1vh) * 95);
+        height: calc(var(--vh, 1vh) * 90);
         display: flex;
         /* margin: ; */
         flex-direction: column;

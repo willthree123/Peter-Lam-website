@@ -1,0 +1,151 @@
+body {}
+
+.about-section {
+    color: white;
+    /* height: fit-content; */
+    background-color: #E3EEFF;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-img-card {
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 0;
+    background-position: center;
+    height: 60vw;
+    width: 800px;
+    min-width: 330px;
+    max-width: 100%;
+}
+
+.about-text-card {
+    min-width: 330px;
+    /* width: 0%; */
+    /* max-width: 500px; */
+}
+
+.about-card-content {
+    padding: 35px;
+}
+
+.about-title {
+    margin-bottom: 30px;
+    height: 48px;
+    width: fit-content;
+    color: black;
+    font-size: 20px;
+}
+
+.about-card-content p {
+    font-size: 1.3em;
+    opacity: var();
+    font-family: 'Noto Sans TC';
+}
+
+.about-img-1 {
+    background-image: url("../assets/news-photo/april-2022/1.jpg");
+    background-position: center;
+}
+
+.about-img-2 {
+    background-image: url("../assets/news-photo/april-2022/2.jpg");
+    background-position: center;
+}
+
+.about-inner-div {
+    /* height: fit-content; */
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.about-next-line {
+    display: block;
+}
+
+.about-cards-content-div {
+    /* gap: 40px; */
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+/* 
+X-Small devices (portrait phones, less than 576px) 
+No media query for `xs` since this is the default in Bootstrap  
+*/
+
+
+/* Small devices (landscape phones, 576px and up)  */
+
+@media (min-width: 576px) {
+    .about-img-card {
+        height: 60vw;
+        width: 800px;
+        min-width: 360px;
+        max-width: 100%;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .spacer-top {
+        height: 85px;
+    }
+    .about-img-card {
+        height: 500px;
+        width: 1000px;
+        min-width: 380px;
+        max-width: 700px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {}
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .about-inner-div {
+        width: 1200px;
+        padding: 0px;
+    }
+    .about-next-line {
+        display: none;
+    }
+    .about-cards-content-div {
+        gap: 40px;
+    }
+    .about-img-card {
+        height: 500px;
+        width: 100%;
+        border-radius: 32px;
+        min-width: 380px;
+        max-width: 700px;
+    }
+    .about-text-card {
+        min-width: 380px;
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+
+@media (min-width: 1400px) {
+    .about-inner-div {
+        width: 1400px;
+        padding: 0px;
+    }
+}

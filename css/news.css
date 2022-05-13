@@ -42,21 +42,41 @@
     font-weight: 800;
     box-shadow: 0px 3.5px 10 0.511922px rgba(73, 73, 73, 0.25);
     border-radius: 16px;
+    border-width: 2px;
+    border-style: solid;
+    font-size: 18px;
+    transform: scale(1);
+    transition: 0.5s;
+    margin-top: 15px;
+    transform-origin: center center;
+    box-sizing: border-box;
+}
+
+.btn-view-details:hover {
+    /* margin-top: calc(15px); */
+    background-color: transparent;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #3DAEFF;
+    /* font-size: 20px; */
+    transform: scale(1.08);
+    color: #3DAEFF;
+    transition: 0.5s;
+}
+
+.btn-view-details-under {
+    padding: 8px 16px;
+    padding-bottom: 9px;
+    background-color: #3DAEFF;
+    color: white;
+    font-weight: 800;
+    box-shadow: 0px 3.5px 10 0.511922px rgba(73, 73, 73, 0.25);
+    border-radius: 16px;
     font-size: 18px;
     transition: 0.5s;
     margin-top: 15px;
-}
-
-a .btn-view-details:hover {
-    margin-top: calc(15px - 7);
-    background-color: transparent;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 16px;
-    border-color: #3DAEFF;
-    font-size: 20px;
-    color: #3DAEFF;
-    transition: 0.5s;
+    opacity: 0;
 }
 
 .act-card-text {
@@ -84,14 +104,6 @@ a .btn-view-details:hover {
     padding-bottom: 30px;
 }
 
-.news-section h1 {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-    color: var(--bluetext-color);
-    font-size: min(12vw, 50px);
-}
-
 .news-section .next-line {
     display: none;
 }
@@ -102,6 +114,7 @@ a .btn-view-details:hover {
 
 .bgcard {
     margin-bottom: 40px;
+    color: var(--primary-color-600);
 }
 
 .news-section .row .bgcard:nth-child(3) {
@@ -134,8 +147,8 @@ a .btn-view-details:hover {
     color: #7E7E7E;
     margin: 0;
     text-align: right;
-    transform: scale(1);
     transform-origin: right center;
+    transform: scale(1);
     transition: 0.5s;
 }
 
@@ -143,7 +156,7 @@ a .btn-view-details:hover {
     transform: scale(1.1);
     transition: 0.5s;
     color: var(--primary-color-600);
-    text-shadow: 0px 0px 6.91139px rgba(255, 255, 255, 0.34);
+    text-shadow: 0px 0px 6.91139px rgb(255 255 255 / 34%);
 }
 
 .spacer-after-news {
@@ -152,6 +165,18 @@ a .btn-view-details:hover {
 
 .act-card-small-detail-text p:nth-child(2) {
     margin-top: 5;
+}
+
+.news-title {
+    height: 48px;
+    margin-left: 6px;
+    width: fit-content;
+    color: black;
+    font-size: 20px;
+    content: url(../assets/svg-title/news-title.svg);
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 

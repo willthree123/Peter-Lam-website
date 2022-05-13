@@ -25,6 +25,15 @@
     margin-left: 20px;
 }
 
+.contact-title-svg {
+    height: 48px;
+    width: fit-content;
+    color: black;
+    font-size: 20px;
+    margin: 0;
+    margin-left: 20px;
+}
+
 .contact-title {
     margin-bottom: 40px;
 }
@@ -181,7 +190,7 @@ No media query for `xs` since this is the default in Bootstrap
         padding: 25 40;
     }
     .contact-a {
-        width: 350px;
+        width: 100%;
     }
     .contact-location {
         max-width: none;
@@ -196,9 +205,9 @@ No media query for `xs` since this is the default in Bootstrap
     .footer-next-line {
         display: none;
     }
-    /* .contact-a {
+    .contact-a {
         width: 350px;
-    } */
+    }
     .contact-location {
         max-width: none;
         width: fit-content;
