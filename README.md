@@ -1,5 +1,9 @@
 # Peter Lam website
 
+### 0.4.2 [14/5/2022 02:42]
+
+- Google Analytics
+
 ### 0.4.1 [14/5/2022 02:37]
 
 - Google search console
