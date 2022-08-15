@@ -1,5 +1,9 @@
 # Peter Lam website
 
+### 1.0.0 [15/8/2022 23:42]
+
+- August update (2022-08)
+
 ### 0.4.2 [14/5/2022 02:42]
 
 - Google Analytics
