@@ -1,32 +1,42 @@
 /* Image position*/
 
+.act-img-1,
+.act-img-2,
+.act-img-3,
+.act-img-4,
+.act-img-5,
+.act-img-6 {
+    background-size: center;
+}
+
 .act-img-1 {
-    background-image: url("../assets/news-photo/2022-09/1.jpg");
+    background-image: url("../assets/news-photo/2022-10/1.jpg");
     background-position: -40px 0px;
 }
 
 .act-img-2 {
-    background-image: url("../assets/news-photo/2022-09/2.jpg");
+    background-image: url("../assets/news-photo/2022-10/2.jpg");
     background-position: 0px 0px;
-    background-size: cover;
 }
 
 .act-img-3 {
-    background-image: url("../assets/news-photo/2022-09/3.jpg");
+    background-image: url("../assets/news-photo/2022-10/3.jpg");
     background-position: 0px 0px;
 }
 
 .act-img-4 {
-    background-image: url("../assets/news-photo/2022-09/4.jpg");
-    background-position: -40px 0px;
+    background-image: url("../assets/news-photo/2022-10/4.jpg");
+    background-position: -50px 0px;
 }
 
 .act-img-5 {
-    background-image: url("../assets/news-photo/2022-09/5.jpg");
+    background-image: url("../assets/news-photo/2022-10/5.jpg");
     background-position: 0px 0px;
+    background-size: contain;
 }
 
 .act-img-6 {
     background-position: center;
-    background-image: url("../assets/news-photo/2022-09/6.jpg");
+    background-position: 0px 0px;
+    background-image: url("../assets/news-photo/2022-10/6.jpg");
 }
