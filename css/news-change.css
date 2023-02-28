@@ -10,33 +10,33 @@
 }
 
 .act-img-1 {
-    background-image: url("../assets/news-photo/2023-02/1.jpg");
-    background-position: 0px 0px;
+    background-image: url("../assets/news-photo/2023-03/1.jpg");
+    background-position: center center;
 }
 
 .act-img-2 {
-    background-image: url("../assets/news-photo/2023-02/2.jpg");
-    background-position: 0px 0px;
+    background-image: url("../assets/news-photo/2023-03/2.jpg");
+    background-position: center center;
 }
 
 .act-img-3 {
-    background-image: url("../assets/news-photo/2023-02/3.jpg");
+    background-image: url("../assets/news-photo/2023-03/3.jpg");
     background-position: -15px 0px;
 }
 
 .act-img-4 {
-    background-image: url("../assets/news-photo/2023-02/4.jpg");
-    background-position: 0px 0px;
+    background-image: url("../assets/news-photo/2023-03/4.jpg");
+    background-position: center center;
 }
 
 .act-img-5 {
-    background-image: url("../assets/news-photo/2023-02/5.jpg");
+    background-image: url("../assets/news-photo/2023-03/5.jpg");
     background-position: 0px 0px;
-    background-size: contain;
+    /* background-size: contain; */
 }
 
 .act-img-6 {
     background-position: center;
     background-position: 0px 0px;
-    background-image: url("../assets/news-photo/2023-02/6.jpg");
+    background-image: url("../assets/news-photo/2023-03/6.jpg");
 }
